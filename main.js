@@ -1,9 +1,10 @@
 function sayHello(){
     var question = prompt("What is your name");
-    document.write(" Hello " + question + ' have an awesome day');
+    //document.write(" Hello " + question + ' have an awesome day');
+    document.write(`Hello ${question} have an awesome day`); // template leteral
 }
 
-// sayHello();
+sayHello();
 
 
 function add(a,b){
@@ -45,9 +46,25 @@ var movies = ['BoogyMan', 'Avengers', 'Last Man Standing']
 
 // objects => 
 
+// var movie = {
+//     Title:'WonderWoman',
+//     Director:'Patty jenkins',
+//     Producer:'Deborah Synder',
+//     Rating:'4'
+// };
 
+// alert(movie.Rating);
 
+// function movie(){}
 
+// arrow functions
+let vida = () => {
+    let newMovie = ' trinidad ';
+    return newMovie;
+    };
 
+console.log(vida());
+// arrow function simplified
+let areaRadius = r => 3.14 * r * r; //if the parameter passed is less than 2 no need to inclued ()
 
-
+console.log(areaRadius(7))
