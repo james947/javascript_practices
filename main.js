@@ -24,14 +24,30 @@ function sum(){
 
 // sum();
 
+// loops in js
 
 var movies = ['BoogyMan', 'Avengers', 'Last Man Standing']
 
-movies.forEach(movie => alert(movie) );
+// using arrow functions
+// movies.forEach(movie => alert(movie) );
 
-var james = [1,2,3,4,5,6,7,8,9,10]
+// var james = [1,2,3,4,5,6,7,8,9,10]
 
-james.forEach(i => document.write(i) );
+// james.forEach(i => document.write(i) );
+
+// much simpler loop
+
+// for (var movie of movies){
+//     console.log(movie);
+//     document.write(movie)
+
+// }
+
+// objects => 
+
+
+
+
 
 
 
