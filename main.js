@@ -68,3 +68,14 @@ console.log(vida());
 let areaRadius = r => 3.14 * r * r; //if the parameter passed is less than 2 no need to inclued ()
 
 console.log(areaRadius(7))
+
+
+// spread operator
+// makes it easier to pass array elements into a function
+
+let addNumbers = (a,b,c) =>{
+    console.log(a + b + c);
+
+}
+arr = [2,4,5]
+addNumbers(...arr);
